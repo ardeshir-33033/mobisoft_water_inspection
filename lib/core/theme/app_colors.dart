@@ -191,5 +191,8 @@ class AppColors {
   static Color service3 = const Color(0xFFFFEBD9);
   static Color service4 = const Color(0xFFFFE1E8);
   static Color service5 = const Color(0xFFE5E4FF);
+  static Color inActiveButtonColor = const Color(0xFFBAB6F3);
+  static Color activeButtonColor = const Color(0xFF544EC0);
   static Color pinkLight = const Color(0xFFF0F0FF);
+  static Color scaffoldBackgroundColor = const Color(0xFFFBFBFB);
 }

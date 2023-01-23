@@ -5,12 +5,21 @@ class TestPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      body:Column(
-        children: [
-          Text("Home Page")
-        ],
-      )
-    );
+    return Scaffold(
+        body: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        InkWell(
+            onTap: () {
+              // availableCameras().then((value) => Navigator.push(
+              //     context,
+              //     MaterialPageRoute(
+              //         builder: (context) => CameraPage(
+              //               cameras: value,
+              //             ))));
+            },
+            child: const Text("Home Page"))
+      ],
+    ));
   }
 }
